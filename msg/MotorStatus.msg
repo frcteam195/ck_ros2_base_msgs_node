@@ -1,2 +1,11 @@
+int32 id
 float64 sensor_position
 float64 sensor_velocity
+float64 bus_voltage
+float64 bus_current
+float64 stator_current
+bool forward_limit_closed
+bool reverse_limit_closed
+int8 control_mode
+float64 commanded_output
+float64 raw_output_percent
