@@ -1,3 +1,4 @@
+uint32 motor_id
 MotorControlModeType control_mode
 float64 setpoint
 float64 feed_forward
