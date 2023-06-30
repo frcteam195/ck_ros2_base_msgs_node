@@ -12,11 +12,11 @@ float64 peak_forward_duty_cycle
 float64 peak_reverse_duty_cycle
 
 # Slot configurations. Each slot is an index of the array.
-float64[] kP
-float64[] kI
-float64[] kD
-float64[] kV
-float64[] kS
+float64[] k_p
+float64[] k_i
+float64[] k_d
+float64[] k_v
+float64[] k_s
 
 # Current limit configuration.
 bool enable_stator_current_limit

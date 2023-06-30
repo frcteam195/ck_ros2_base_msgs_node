@@ -12,10 +12,6 @@ file(GLOB_RECURSE message_sources CONFIGURE_DEPENDS
   RELATIVE "${PROJECT_SOURCE_DIR}" "${PROJECT_SOURCE_DIR}/msg/*.msg"
 )
 
-file(GLOB_RECURSE message_sources CONFIGURE_DEPENDS
-  RELATIVE "${PROJECT_SOURCE_DIR}" "${PROJECT_SOURCE_DIR}/msg/enumerations/*.msg"
-)
-
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME} ${message_sources})
 ament_export_dependencies(rosidl_default_runtime)
