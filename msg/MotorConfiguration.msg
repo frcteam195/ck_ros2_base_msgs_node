@@ -10,6 +10,7 @@ float64 peak_forward_duty_cycle
 float64 peak_reverse_duty_cycle
 
 # Slot configurations. Each slot is an index of the array.
+uint8 active_slot
 float64[] k_p
 float64[] k_i
 float64[] k_d
