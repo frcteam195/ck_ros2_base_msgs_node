@@ -1,0 +1,6 @@
+uint8 NONE = 0
+uint8 DUTY_CYCLE = 1
+uint8 TORQUE_CURRENT = 2
+uint8 VOLTAGE = 3
+
+uint8 feed_forward_type

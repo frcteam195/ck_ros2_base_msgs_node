@@ -1,1 +1,4 @@
-float64 output
+MotorControlCommandType command_type
+float64 setpoint
+float64 feed_forward
+MotorControlFeedForwardType feed_forward_type
