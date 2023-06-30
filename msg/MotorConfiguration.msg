@@ -8,24 +8,12 @@ bool brake_neutral
 # float64 peak_forward_duty_cycle
 # float64 peak_reverse_duty_cycle
 
-# Slot configurations
-float64 k_p_0
-float64 k_i_0
-float64 k_d_0
-float64 k_v_0
-float64 k_s_0
-
-float64 k_p_1
-float64 k_i_1
-float64 k_d_1
-float64 k_v_1
-float64 k_s_1
-
-float64 k_p_2
-float64 k_i_2
-float64 k_d_2
-float64 k_v_2
-float64 k_s_2
+# Slot configurations. Each slot is an index of the array.
+float64[] k_p
+float64[] k_i
+float64[] k_d
+float64[] k_v
+float64[] k_s
 
 # Current limit configuration.
 bool enable_stator_current_limit
