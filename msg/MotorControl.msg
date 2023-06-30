@@ -1,4 +1,4 @@
-MotorControlControlModeType control_mode
+MotorControlModeType control_mode
 float64 setpoint
 float64 feed_forward
 MotorControlFeedForwardType feed_forward_type
