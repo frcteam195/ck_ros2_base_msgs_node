@@ -1,16 +1,14 @@
 uint8 id
-MotorControllerType controller
 uint8 master_id
 
 # Motor output configuration.
 bool invert
-MotorNeutralModeType neutral_mode
-float64 duty_cycle_neutral_deadband
-float64 peak_forward_duty_cycle
-float64 peak_reverse_duty_cycle
+bool brake_neutral
+# float64 duty_cycle_neutral_deadband
+# float64 peak_forward_duty_cycle
+# float64 peak_reverse_duty_cycle
 
 # Slot configurations. Each slot is an index of the array.
-uint8 active_slot
 float64[] k_p
 float64[] k_i
 float64[] k_d
@@ -27,14 +25,14 @@ float64 supply_current_threshold
 float64 supply_time_threshold
 
 # Voltage configuration.
-float64 supply_voltage_time_constant
-float64 peak_forward_voltage
-float64 peak_reverse_voltage
+# float64 supply_voltage_time_constant
+# float64 peak_forward_voltage
+# float64 peak_reverse_voltage
 
 # Torque current configuration.
-float64 torque_neutral_deadband
-float64 peak_forward_torque_current
-float64 peak_reverse_torque_current
+# float64 torque_neutral_deadband
+# float64 peak_forward_torque_current
+# float64 peak_reverse_torque_current
 
 # Closed/open loop ramp configurations.
 float64 duty_cycle_closed_loop_ramp_period
