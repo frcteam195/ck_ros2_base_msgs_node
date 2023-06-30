@@ -9,4 +9,4 @@ uint8 STATIC_BRAKE = 7
 uint8 COAST_OUT = 8
 uint8 FOLLOWER = 9
 
-uint8 command_type
+uint8 control_mode
