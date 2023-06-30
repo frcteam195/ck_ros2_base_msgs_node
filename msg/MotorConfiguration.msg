@@ -1,8 +1,6 @@
 uint8 id
 MotorControllerType controller
 uint8 master_id
-MotorLimitSwitchSourceType limit_switch_source
-MotorLimitSwitchNormalType limit_switch_normal
 
 # Motor output configuration.
 bool invert
