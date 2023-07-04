@@ -7,5 +7,3 @@ uint8 MOTION_MAGIC = 5
 uint8 NEUTRAL_OUT = 6
 uint8 STATIC_BRAKE = 7
 uint8 COAST_OUT = 8
-
-uint8 control_mode
